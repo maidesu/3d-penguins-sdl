@@ -45,13 +45,13 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>T:\OGLPack\include;$(IncludePath)</IncludePath>
-    <LibraryPath>T:\OGLPack\lib\x64;$(LibraryPath)</LibraryPath>
+    <IncludePath>OGLPack\include;$(IncludePath)</IncludePath>
+    <LibraryPath>OGLPack\lib\x64;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
-    <IncludePath>T:\OGLPack\include;$(IncludePath)</IncludePath>
-    <LibraryPath>T:\OGLPack\lib\x64;$(LibraryPath)</LibraryPath>
+    <IncludePath>OGLPack\include;$(IncludePath)</IncludePath>
+    <LibraryPath>OGLPack\lib\x64;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
@@ -97,10 +97,10 @@
     <ClInclude Include="Includes\TextureObject.h" />
     <ClInclude Include="Includes\VertexArrayObject.h" />
     <ClInclude Include="MyApp.h" />
-    <ClInclude Include="T:\OGLPack\include\imgui\imconfig.h" />
-    <ClInclude Include="T:\OGLPack\include\imgui\imgui.h" />
-    <ClInclude Include="T:\OGLPack\include\imgui\imgui_impl_sdl_gl3.h" />
-    <ClInclude Include="T:\OGLPack\include\imgui\imgui_internal.h" />
+    <ClInclude Include="OGLPack\include\imgui\imconfig.h" />
+    <ClInclude Include="OGLPack\include\imgui\imgui.h" />
+    <ClInclude Include="OGLPack\include\imgui\imgui_impl_sdl_gl3.h" />
+    <ClInclude Include="OGLPack\include\imgui\imgui_internal.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Includes\gCamera.cpp" />
@@ -120,10 +120,10 @@
     <None Include="Includes\VertexArrayObject.inl" />
     <None Include="skybox.frag" />
     <None Include="skybox.vert" />
-    <ClCompile Include="T:\OGLPack\include\imgui\imgui.cpp" />
-    <ClCompile Include="T:\OGLPack\include\imgui\imgui_demo.cpp" />
-    <ClCompile Include="T:\OGLPack\include\imgui\imgui_draw.cpp" />
-    <ClCompile Include="T:\OGLPack\include\imgui\imgui_impl_sdl_gl3.cpp" />
+    <ClCompile Include="OGLPack\include\imgui\imgui.cpp" />
+    <ClCompile Include="OGLPack\include\imgui\imgui_demo.cpp" />
+    <ClCompile Include="OGLPack\include\imgui\imgui_draw.cpp" />
+    <ClCompile Include="OGLPack\include\imgui\imgui_impl_sdl_gl3.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="myFrag.frag" />
